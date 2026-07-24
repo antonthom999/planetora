@@ -128,8 +128,11 @@ button { outline: none; border-radius: 15px; flex-shrink: 1; user-select: none; 
   </div>
 </div>
 
-<div class="button-container">
-  <button id="btn1" class="common-btn">Click here to generate your floor plan</button>
+<div class="button-container"> 
+  <button id="btn1" class="common-btn" style="display: inline-flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 4px; padding: 12px 24px;">
+    <span style="font-size: 16px; font-weight: bold;">Click here to generate your floor plan</span>
+    <span style="font-size: 12px; font-weight: normal; opacity: 0.8;">(it might take 50 seconds on the first try after inactivity)</span>
+  </button> 
 </div>
 
 <script>
